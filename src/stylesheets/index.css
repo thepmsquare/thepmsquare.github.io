@@ -6,8 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
 }
