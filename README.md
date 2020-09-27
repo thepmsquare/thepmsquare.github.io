@@ -1,1 +1,0 @@
-just my personal website.
