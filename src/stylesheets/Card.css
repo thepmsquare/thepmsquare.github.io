@@ -1,25 +1,28 @@
 .Card {
-  width: 90%;
-  height: 25%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin: 1rem;
+  min-width: 90%;
 }
 .Card-main {
   font-size: 2rem;
+  margin: 1rem 0;
   font-family: "Roboto Mono";
   width: 100%;
   text-align: center;
 }
 .Card-links {
+  margin: 1rem 0;
   display: flex;
   justify-content: space-around;
 }
-.Card-showMore {
+.Card-showMore,
+.Card-showLess {
   width: 100%;
+}
+.Card-App {
+  max-width: 100%;
 }
 @media (min-width: 1024px) {
   .Card {
-    width: 30%;
+    min-width: 40%;
   }
 }
