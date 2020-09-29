@@ -109,7 +109,9 @@ class Card extends Component {
                         actions={[
                           {
                             iconProps: { iconName: "OpenInNewWindow" },
-                            onClick: () => window.open(app.link, "_blank"),
+                            onClick: () => {
+                              window.open(app.link, "_blank");
+                            },
                             ariaLabel: app.linkAriaLabel,
                           },
                         ]}
