@@ -7,6 +7,7 @@ import tttGameReact from "./Images/ttt-game-react.png";
 import yahtzeeGameReact from "./Images/yahtzee-game-react.png";
 import birdIdentification from "./Images/birdIdentification.png";
 import fruitNinja from "./Images/fruit-ninja.png";
+import _2048 from "./Images/2048.png";
 import { v4 as uuidv4 } from "uuid";
 const myApps = [
   {
@@ -80,6 +81,14 @@ const myApps = [
     title: "Fruit Ninja Clone (PC only).",
     link: "https://github.com/thepmsquare/fruit-ninja",
     linkAriaLabel: "Link to fruit-ninja.",
+  },
+  {
+    key: uuidv4(),
+    ariaLabel: "Info about 2048.",
+    previewImageSrc: _2048,
+    title: "2048 Game Clone (WIP).",
+    link: "https://github.com/thepmsquare/2048",
+    linkAriaLabel: "Link to 2048.",
   },
 ];
 const myAppsSorted = myApps.sort((a, b) => a.title.localeCompare(b.title));
