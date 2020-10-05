@@ -86,8 +86,8 @@ const myApps = [
     key: uuidv4(),
     ariaLabel: "Info about 2048.",
     previewImageSrc: _2048,
-    title: "2048 Game Clone (WIP).",
-    link: "https://github.com/thepmsquare/2048",
+    title: "2048 Game Clone.",
+    link: "https://thepmsquare.me/2048/",
     linkAriaLabel: "Link to 2048.",
   },
 ];
