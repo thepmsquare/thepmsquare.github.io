@@ -71,7 +71,7 @@ const myApps = [
     ariaLabel: "Info about birdIdentification.",
     previewImageSrc: birdIdentification,
     title: "Bird Identification Project (WIP).",
-    link: "https://github.com/thepmsquare/bird-identification",
+    link: "https://thepmsquare.me/bird-identification",
     linkAriaLabel: "Link to birdIdentification.",
   },
   {
