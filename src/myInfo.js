@@ -96,7 +96,7 @@ const myApps = [
     ariaLabel: "Info about Hospital Management System.",
     previewImageSrc: gungeet,
     title: "Hospital Management System.",
-    link: "gungeet-e199c.web.app/",
+    link: "https://gungeet-e199c.web.app/",
     linkAriaLabel: "Link to Hospital Management System.",
   },
 ];
