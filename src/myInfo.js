@@ -8,6 +8,7 @@ import yahtzeeGameReact from "./Images/yahtzee-game-react.png";
 import birdIdentification from "./Images/birdIdentification.png";
 import fruitNinja from "./Images/fruit-ninja.png";
 import _2048 from "./Images/2048.png";
+import gungeet from "./Images/gungeet.png";
 import { v4 as uuidv4 } from "uuid";
 const myApps = [
   {
@@ -89,6 +90,14 @@ const myApps = [
     title: "2048 Game Clone.",
     link: "https://thepmsquare.me/2048/",
     linkAriaLabel: "Link to 2048.",
+  },
+  {
+    key: uuidv4(),
+    ariaLabel: "Info about Hospital Management System.",
+    previewImageSrc: gungeet,
+    title: "Hospital Management System.",
+    link: "gungeet-e199c.web.app/",
+    linkAriaLabel: "Link to Hospital Management System.",
   },
 ];
 const myAppsSorted = myApps.sort((a, b) => a.title.localeCompare(b.title));
