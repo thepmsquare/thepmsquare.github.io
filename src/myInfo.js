@@ -16,7 +16,7 @@ const myApps = [
     ariaLabel: "Info about hangman-game-react.",
     previewImageSrc: hangmanGameReact,
     title: "Hangman Game.",
-    link: "https://thepmsquare.me/hangman-game-react/",
+    link: "https://thepmsquare.github.io/hangman-game-react/",
     linkAriaLabel: "Link to hangman-game-react.",
   },
   {
@@ -24,7 +24,7 @@ const myApps = [
     ariaLabel: "Info about guess-color-game-react.",
     previewImageSrc: guessColorGameReact,
     title: "Guess Color Game.",
-    link: "https://thepmsquare.me/guess-color-game-react/",
+    link: "https://thepmsquare.github.io/guess-color-game-react/",
     linkAriaLabel: "Link to guess-color-game-react.",
   },
   {
@@ -32,7 +32,7 @@ const myApps = [
     ariaLabel: "Info about lights-out-game-react.",
     previewImageSrc: lightsOutGameReact,
     title: "Lights Out Game.",
-    link: "https://thepmsquare.me/lights-out-game-react/",
+    link: "https://thepmsquare.github.io/lights-out-game-react/",
     linkAriaLabel: "Link to lights-out-game-react.",
   },
   {
@@ -40,7 +40,7 @@ const myApps = [
     ariaLabel: "Info about minesweeper-game-react.",
     previewImageSrc: minesweeperGameReact,
     title: "Minesweeper Game.",
-    link: "https://thepmsquare.me/minesweeper-game-react/",
+    link: "https://thepmsquare.github.io/minesweeper-game-react/",
     linkAriaLabel: "Link to minesweeper-game-react.",
   },
   {
@@ -48,7 +48,7 @@ const myApps = [
     ariaLabel: "Info about multiplication-tables-exercise-react.",
     previewImageSrc: multiplicationTablesExerciseReact,
     title: "Multiplication Tables Exercise.",
-    link: "https://thepmsquare.me/multiplication-tables-exercise-react/",
+    link: "https://thepmsquare.github.io/multiplication-tables-exercise-react/",
     linkAriaLabel: "Link to multiplication-tables-exercise-react.",
   },
   {
@@ -56,7 +56,7 @@ const myApps = [
     ariaLabel: "Info about ttt-game-react.",
     previewImageSrc: tttGameReact,
     title: "Tic Tac Toe Game.",
-    link: "https://thepmsquare.me/ttt-game-react/",
+    link: "https://thepmsquare.github.io/ttt-game-react/",
     linkAriaLabel: "Link to ttt-game-react.",
   },
   {
@@ -64,7 +64,7 @@ const myApps = [
     ariaLabel: "Info about yahtzee-game-react.",
     previewImageSrc: yahtzeeGameReact,
     title: "Yahtzee Game.",
-    link: "https://thepmsquare.me/yahtzee-game-react/",
+    link: "https://thepmsquare.github.io/yahtzee-game-react/",
     linkAriaLabel: "Link to yahtzee-game-react.",
   },
   {
@@ -72,7 +72,7 @@ const myApps = [
     ariaLabel: "Info about birdIdentification.",
     previewImageSrc: birdIdentification,
     title: "Bird Identification Project.",
-    link: "https://thepmsquare.me/bird-identification",
+    link: "https://thepmsquare.github.io/bird-identification",
     linkAriaLabel: "Link to birdIdentification.",
   },
   {
@@ -88,7 +88,7 @@ const myApps = [
     ariaLabel: "Info about 2048.",
     previewImageSrc: _2048,
     title: "2048 Game Clone.",
-    link: "https://thepmsquare.me/2048/",
+    link: "https://thepmsquare.github.io/2048/",
     linkAriaLabel: "Link to 2048.",
   },
   {
