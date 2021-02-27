@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d873eca481e94d5e541ab0053598f62c",
+    "revision": "5ec3c12018142104bb1be7553d53b75a",
     "url": "/index.html"
   },
   {
-    "revision": "fcdaafb43d6599d5d073",
+    "revision": "0741005a97ffc9e0d650",
     "url": "/static/css/main.d9006c34.chunk.css"
   },
   {
-    "revision": "66f55a30fb9627905146",
-    "url": "/static/js/2.64797a88.chunk.js"
+    "revision": "6436819b3e04f0de3716",
+    "url": "/static/js/2.d8627efb.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/static/js/2.64797a88.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d8627efb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcdaafb43d6599d5d073",
-    "url": "/static/js/main.8b7306ed.chunk.js"
+    "revision": "0741005a97ffc9e0d650",
+    "url": "/static/js/main.684b16a3.chunk.js"
   },
   {
     "revision": "f139b624154a37532bb8",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5ed41090b2ba7e8f4769af58af715fd9",
     "url": "/static/media/birdIdentification.5ed41090.png"
+  },
+  {
+    "revision": "8d5655ca026e8688a06c9e6647a43c9b",
+    "url": "/static/media/casino.8d5655ca.png"
   },
   {
     "revision": "6ad620b3644977f6aa19e3fe1582e072",
