@@ -9,6 +9,7 @@ import birdIdentification from "./Images/birdIdentification.png";
 import fruitNinja from "./Images/fruit-ninja.png";
 import _2048 from "./Images/2048.png";
 import gungeet from "./Images/gungeet.png";
+import casino from "./Images/casino.png";
 import { v4 as uuidv4 } from "uuid";
 const myApps = [
   {
@@ -98,6 +99,14 @@ const myApps = [
     title: "Hospital Management System.",
     link: "https://gungeet-e199c.web.app/",
     linkAriaLabel: "Link to Hospital Management System.",
+  },
+  {
+    key: uuidv4(),
+    ariaLabel: "Info about casino.",
+    previewImageSrc: casino,
+    title: "casino.",
+    link: "https://thepmsquare.github.io/casino/",
+    linkAriaLabel: "Link to casino.",
   },
 ];
 const myAppsSorted = myApps.sort((a, b) => a.title.localeCompare(b.title));
