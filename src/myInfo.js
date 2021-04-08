@@ -92,22 +92,6 @@ const myApps = [
     link: "https://thepmsquare.github.io/2048/",
     linkAriaLabel: "Link to 2048.",
   },
-  {
-    key: uuidv4(),
-    ariaLabel: "Info about Hospital Management System.",
-    previewImageSrc: gungeet,
-    title: "Hospital Management System.",
-    link: "https://gungeet-e199c.web.app/",
-    linkAriaLabel: "Link to Hospital Management System.",
-  },
-  {
-    key: uuidv4(),
-    ariaLabel: "Info about casino.",
-    previewImageSrc: casino,
-    title: "casino.",
-    link: "https://thepmsquare.github.io/casino/",
-    linkAriaLabel: "Link to casino.",
-  },
 ];
 const myAppsSorted = myApps.sort((a, b) => a.title.localeCompare(b.title));
 const myCurrentEmail = "thepmsquare@gmail.com";
