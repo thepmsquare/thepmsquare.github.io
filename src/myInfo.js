@@ -8,6 +8,7 @@ import yahtzeeGameReact from "./Images/yahtzee-game-react.png";
 import birdIdentification from "./Images/birdIdentification.png";
 import fruitNinja from "./Images/fruit-ninja.png";
 import _2048 from "./Images/2048.png";
+import hidden from "./Images/hidden.png";
 import { v4 as uuidv4 } from "uuid";
 const myApps = [
   {
@@ -89,6 +90,21 @@ const myApps = [
     title: "2048 Game Clone.",
     link: "https://thepmsquare.github.io/2048/",
     linkAriaLabel: "Link to 2048.",
+  },
+  {
+    key: uuidv4(),
+    ariaLabel: "Info about hidden.",
+    previewImageSrc: hidden,
+    title: "hidden (wrapper for hidden-api).",
+    link: "https://thepmsquare.github.io/hidden/",
+    linkAriaLabel: "Link to hidden.",
+  },
+  {
+    key: uuidv4(),
+    ariaLabel: "Info about hidden-api.",
+    title: "hidden-api (steganography api).",
+    link: "https://hiddenapi.herokuapp.com/docs",
+    linkAriaLabel: "Link to hidden-api.",
   },
 ];
 const myAppsSorted = myApps.sort((a, b) => a.title.localeCompare(b.title));
