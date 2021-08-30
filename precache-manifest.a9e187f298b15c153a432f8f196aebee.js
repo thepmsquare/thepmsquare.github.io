@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ababfa32a15e333d7224f3d5aa8ff7f",
+    "revision": "6d6c8d36eb0f9df7558b349984d56f19",
     "url": "/index.html"
   },
   {
-    "revision": "99f139b8dad9fb79cdf0",
+    "revision": "20a2f1d9c49a3c8270e9",
     "url": "/static/css/main.d9006c34.chunk.css"
   },
   {
-    "revision": "df46e28e507a4216559b",
-    "url": "/static/js/2.7db8fe07.chunk.js"
+    "revision": "66f55a30fb9627905146",
+    "url": "/static/js/2.64797a88.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/static/js/2.7db8fe07.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.64797a88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99f139b8dad9fb79cdf0",
-    "url": "/static/js/main.9d481156.chunk.js"
+    "revision": "20a2f1d9c49a3c8270e9",
+    "url": "/static/js/main.2a6b0021.chunk.js"
   },
   {
     "revision": "f139b624154a37532bb8",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5c46240790d7335f842f013d0fd78e34",
     "url": "/static/media/hangman-game-react.5c462407.png"
+  },
+  {
+    "revision": "95d6c2013900a50a9f31667227016b2e",
+    "url": "/static/media/hidden.95d6c201.png"
   },
   {
     "revision": "b85661d100cd3713b03e346011dbd1e4",
