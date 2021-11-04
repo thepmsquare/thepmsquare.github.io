@@ -6,9 +6,11 @@ import {
 	CardActions,
 	CardContent,
 	Card as MUICard,
+	Tooltip,
 } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { myCurrentEmail, myGithubUsername } from "./myInfo";
 import "./stylesheets/Card.css";
 
 class Card extends Component {
@@ -18,12 +20,19 @@ class Card extends Component {
 				<CardContent className="Card-content">
 					<span className="Card-title">thePmSquare</span>
 					<div className="Card-iconsContainer">
-						<IconButton>
-							<EmailIcon />
-						</IconButton>
-						<IconButton>
-							<GitHubIcon />
-						</IconButton>
+						<Tooltip title={`mailto:${myCurrentEmail}`}>
+							<IconButton href={`mailto:${myCurrentEmail}`} target="_blank">
+								<EmailIcon />
+							</IconButton>
+						</Tooltip>
+						<Tooltip title={`https://www.github.com/${myGithubUsername}`}>
+							<IconButton
+								href={`https://www.github.com/${myGithubUsername}`}
+								target="_blank"
+							>
+								<GitHubIcon />
+							</IconButton>
+						</Tooltip>
 					</div>
 				</CardContent>
 				<CardActionArea className="Card-actionArea">
