@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9006c34.chunk.css",
-    "main.js": "/static/js/main.2a6b0021.chunk.js",
-    "main.js.map": "/static/js/main.2a6b0021.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
-    "static/js/2.64797a88.chunk.js": "/static/js/2.64797a88.chunk.js",
-    "static/js/2.64797a88.chunk.js.map": "/static/js/2.64797a88.chunk.js.map",
+    "main.css": "/static/css/main.a07fb316.chunk.css",
+    "main.js": "/static/js/main.596d1096.chunk.js",
+    "main.js.map": "/static/js/main.596d1096.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1fe197ec.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1fe197ec.js.map",
+    "static/js/2.570c2674.chunk.js": "/static/js/2.570c2674.chunk.js",
+    "static/js/2.570c2674.chunk.js.map": "/static/js/2.570c2674.chunk.js.map",
+    "static/js/3.19d7fcae.chunk.js": "/static/js/3.19d7fcae.chunk.js",
+    "static/js/3.19d7fcae.chunk.js.map": "/static/js/3.19d7fcae.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a9e187f298b15c153a432f8f196aebee.js": "/precache-manifest.a9e187f298b15c153a432f8f196aebee.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d9006c34.chunk.css.map": "/static/css/main.d9006c34.chunk.css.map",
-    "static/js/2.64797a88.chunk.js.LICENSE.txt": "/static/js/2.64797a88.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/RobotoMono-VariableFont_wght.9e06bf8e.ttf",
-    "static/media/birdIdentification.png": "/static/media/birdIdentification.5ed41090.png",
-    "static/media/fruit-ninja.png": "/static/media/fruit-ninja.6ad620b3.png",
-    "static/media/guess-color-game-react.png": "/static/media/guess-color-game-react.2a61d4f1.png",
-    "static/media/hangman-game-react.png": "/static/media/hangman-game-react.5c462407.png",
-    "static/media/hidden.png": "/static/media/hidden.95d6c201.png",
-    "static/media/minesweeper-game-react.png": "/static/media/minesweeper-game-react.b85661d1.png",
-    "static/media/ttt-game-react.png": "/static/media/ttt-game-react.26ed97a7.png"
+    "static/css/main.a07fb316.chunk.css.map": "/static/css/main.a07fb316.chunk.css.map",
+    "static/js/2.570c2674.chunk.js.LICENSE.txt": "/static/js/2.570c2674.chunk.js.LICENSE.txt",
+    "static/media/birdIdentification.feb8a693.png": "/static/media/birdIdentification.feb8a693.png",
+    "static/media/fruit-ninja.7a96312f.png": "/static/media/fruit-ninja.7a96312f.png",
+    "static/media/guess-color-game-react.ae17d06a.png": "/static/media/guess-color-game-react.ae17d06a.png",
+    "static/media/hangman-game-react.8233e85b.png": "/static/media/hangman-game-react.8233e85b.png",
+    "static/media/hidden.5c816b33.png": "/static/media/hidden.5c816b33.png",
+    "static/media/minesweeper-game-react.d1dae3fa.png": "/static/media/minesweeper-game-react.d1dae3fa.png",
+    "static/media/ttt-game-react.e35ae545.png": "/static/media/ttt-game-react.e35ae545.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce89729d.js",
-    "static/js/2.64797a88.chunk.js",
-    "static/css/main.d9006c34.chunk.css",
-    "static/js/main.2a6b0021.chunk.js"
+    "static/js/runtime-main.1fe197ec.js",
+    "static/js/2.570c2674.chunk.js",
+    "static/css/main.a07fb316.chunk.css",
+    "static/js/main.596d1096.chunk.js"
   ]
 }
