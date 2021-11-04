@@ -1,49 +1,9 @@
 .Card {
-	background-color: #00ffff !important;
-	width: 70vmin;
-	height: 70vmin;
-	display: flex;
-	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
 }
-.Card-content {
-	height: 80%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-evenly;
-	padding: 0 !important;
-}
-.Card-title {
-	font-size: 8vmin;
-}
-.Card-title::selection {
-	color: #00ffff;
-	background: black;
-}
-.Card-iconsContainer {
-	width: 100%;
-	display: flex;
-	justify-content: space-evenly;
-}
-.Card-iconsContainer a svg {
-	width: 8vmin;
-	height: 8vmin;
-	color: black;
-}
-.Card-actionArea {
-	flex-grow: 1;
-}
-.Card-actions {
-	height: 100%;
-	padding: 0 !important;
+.Card-side {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-.Card-actions span {
-	font-size: 2.5vmin;
-}
-.MuiTooltip-tooltip {
-	background-color: black !important;
-	color: #00ffff !important;
 }

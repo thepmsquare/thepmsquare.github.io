@@ -1,46 +1,37 @@
 import React, { Component } from "react";
-import {
-	IconButton,
-	Typography,
-	CardActionArea,
-	CardActions,
-	CardContent,
-	Card as MUICard,
-	Tooltip,
-} from "@mui/material";
-import EmailIcon from "@mui/icons-material/Email";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import { myCurrentEmail, myGithubUsername } from "./myInfo";
+import Flippy, { FrontSide, BackSide } from "react-flippy";
+import FirstSide from "./FirstSide";
+import SecondSide from "./SecondSide";
 import "./stylesheets/Card.css";
-
 class Card extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			isFlipped: true,
+		};
+	}
+	toggleFlip = () => {
+		this.setState((curState) => {
+			return {
+				isFlipped: !curState.isFlipped,
+			};
+		});
+	};
 	render() {
 		return (
-			<MUICard className="Card" square>
-				<CardContent className="Card-content">
-					<span className="Card-title">thePmSquare</span>
-					<div className="Card-iconsContainer">
-						<Tooltip title={`mailto:${myCurrentEmail}`}>
-							<IconButton href={`mailto:${myCurrentEmail}`} target="_blank">
-								<EmailIcon />
-							</IconButton>
-						</Tooltip>
-						<Tooltip title={`https://www.github.com/${myGithubUsername}`}>
-							<IconButton
-								href={`https://www.github.com/${myGithubUsername}`}
-								target="_blank"
-							>
-								<GitHubIcon />
-							</IconButton>
-						</Tooltip>
-					</div>
-				</CardContent>
-				<CardActionArea className="Card-actionArea">
-					<CardActions className="Card-actions">
-						<Typography variant="button">more</Typography>
-					</CardActions>
-				</CardActionArea>
-			</MUICard>
+			<Flippy
+				isFlipped={this.state.isFlipped}
+				flipOnClick={false}
+				flipDirection="horizontal"
+				className="Card"
+			>
+				<BackSide className="Card-side">
+					<FirstSide toggleFlip={this.toggleFlip} />
+				</BackSide>
+				<FrontSide className="Card-side">
+					<SecondSide toggleFlip={this.toggleFlip} />
+				</FrontSide>
+			</Flippy>
 		);
 	}
 }

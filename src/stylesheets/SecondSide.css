@@ -1,0 +1,32 @@
+.SecondSide {
+	background-color: #00ffff !important;
+	width: 85vmin;
+	height: 85vmin;
+	display: flex;
+	flex-direction: column;
+}
+.SecondSide-content {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 0 !important;
+}
+.SecondSide p::selection {
+	color: #00ffff;
+	background: black;
+}
+.SecondSide-actionArea {
+	flex-grow: 1;
+}
+.SecondSide-actions {
+	height: 100%;
+	padding: 0 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SecondSide-actions span {
+	font-size: 2.5vmin;
+}
