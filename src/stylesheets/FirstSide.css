@@ -47,3 +47,7 @@
 	background-color: black !important;
 	color: #00ffff !important;
 }
+.MuiTooltip-tooltip::selection {
+	background-color: #00ffff !important;
+	color: black !important;
+}
