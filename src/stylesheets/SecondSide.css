@@ -10,12 +10,23 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-evenly;
 	padding: 0 !important;
 }
-.SecondSide p::selection {
-	color: #00ffff;
-	background: black;
+.SecondSide-avatars {
+	display: grid;
+	gap: 1rem;
+	flex-grow: 1;
+	padding: 1rem;
+	width: 100%;
+}
+.SecondSide-avatarContainer {
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	justify-content: space-evenly !important;
+}
+.SecondSide-pagination {
+	padding: 1rem 0;
 }
 .SecondSide-actionArea {
 	flex-grow: 1;
@@ -29,4 +40,13 @@
 }
 .SecondSide-actions span {
 	font-size: 2.5vmin;
+}
+.MuiTooltip-tooltip::selection {
+	background-color: #00ffff !important;
+	color: black !important;
+}
+/* not useful here */
+.SecondSide p::selection {
+	color: #00ffff;
+	background: black;
 }
