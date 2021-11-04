@@ -102,6 +102,7 @@ const myApps = [
 	{
 		key: uuidv4(),
 		ariaLabel: "Info about hidden-api.",
+		previewImageSrc: hidden,
 		title: "hidden-api (steganography api).",
 		link: "https://hiddenapi.herokuapp.com/docs",
 		linkAriaLabel: "Link to hidden-api.",
