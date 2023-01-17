@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a07fb316.chunk.css",
-    "main.js": "/static/js/main.8a94efab.chunk.js",
-    "main.js.map": "/static/js/main.8a94efab.chunk.js.map",
+    "main.js": "/static/js/main.57e00213.chunk.js",
+    "main.js.map": "/static/js/main.57e00213.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1fe197ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.1fe197ec.js.map",
-    "static/js/2.570c2674.chunk.js": "/static/js/2.570c2674.chunk.js",
-    "static/js/2.570c2674.chunk.js.map": "/static/js/2.570c2674.chunk.js.map",
+    "static/js/2.e461f656.chunk.js": "/static/js/2.e461f656.chunk.js",
+    "static/js/2.e461f656.chunk.js.map": "/static/js/2.e461f656.chunk.js.map",
     "static/js/3.19d7fcae.chunk.js": "/static/js/3.19d7fcae.chunk.js",
     "static/js/3.19d7fcae.chunk.js.map": "/static/js/3.19d7fcae.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.a07fb316.chunk.css.map": "/static/css/main.a07fb316.chunk.css.map",
-    "static/js/2.570c2674.chunk.js.LICENSE.txt": "/static/js/2.570c2674.chunk.js.LICENSE.txt",
+    "static/js/2.e461f656.chunk.js.LICENSE.txt": "/static/js/2.e461f656.chunk.js.LICENSE.txt",
     "static/media/birdIdentification.feb8a693.png": "/static/media/birdIdentification.feb8a693.png",
     "static/media/fruit-ninja.7a96312f.png": "/static/media/fruit-ninja.7a96312f.png",
     "static/media/guess-color-game-react.ae17d06a.png": "/static/media/guess-color-game-react.ae17d06a.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1fe197ec.js",
-    "static/js/2.570c2674.chunk.js",
+    "static/js/2.e461f656.chunk.js",
     "static/css/main.a07fb316.chunk.css",
-    "static/js/main.8a94efab.chunk.js"
+    "static/js/main.57e00213.chunk.js"
   ]
 }
