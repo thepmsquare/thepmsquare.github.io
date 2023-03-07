@@ -17,7 +17,7 @@ class FirstSide extends Component {
     return (
       <Card className="FirstSide" square>
         <CardContent className="FirstSide-content">
-          <span className="FirstSide-title">Bhumik Mangtani</span>
+          <span className="FirstSide-title">thePmSquare</span>
           <div className="FirstSide-iconsContainer">
             <Tooltip title={`mailto:${myCurrentEmail}`}>
               <IconButton href={`mailto:${myCurrentEmail}`} target="_blank">
