@@ -1,0 +1,53 @@
+.FirstSide {
+  background-color: #00ffff !important;
+  width: 70vmin;
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+}
+.FirstSide-content {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 !important;
+}
+.FirstSide-title {
+  font-size: 8vmin;
+}
+.FirstSide-title::selection {
+  color: #00ffff;
+  background: black;
+}
+.FirstSide-iconsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.FirstSide-iconsContainer a svg {
+  width: 8vmin;
+  height: 8vmin;
+  color: black;
+}
+.FirstSide-actionArea {
+  flex-grow: 1;
+}
+.FirstSide-actions {
+  height: 100%;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FirstSide-actions span {
+  font-size: 2.5vmin;
+}
+.MuiTooltip-tooltip {
+  background-color: black !important;
+  color: #00ffff !important;
+}
+.MuiTooltip-tooltip::selection {
+  background-color: #00ffff !important;
+  color: black !important;
+}
