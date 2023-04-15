@@ -88,7 +88,7 @@ const myApps = [
     key: uuidv4(),
     previewImageSrc: numeri,
     title: "numeri.",
-    link: "https://numeri.vercel.app",
+    link: "https://thepmsquare.github.io/numeri/",
   },
 ];
 const myAppsSorted = myApps.sort((a, b) => a.title.localeCompare(b.title));
