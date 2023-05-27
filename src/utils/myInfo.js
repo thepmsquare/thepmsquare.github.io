@@ -82,7 +82,7 @@ const myApps = [
     key: uuidv4(),
     previewImageSrc: hidden,
     title: "hidden-api (steganography api).",
-    link: "https://ycxyc3.deta.dev/docs",
+    link: "https://default-1-u1199054.deta.app/docs",
   },
   {
     key: uuidv4(),
