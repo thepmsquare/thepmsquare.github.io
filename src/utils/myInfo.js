@@ -8,7 +8,7 @@ import yahtzeeGameReact from "../images/yahtzee-game-react.png";
 import birdIdentification from "../images/birdIdentification.png";
 import fruitNinja from "../images/fruit-ninja.png";
 import _2048 from "../images/2048.png";
-import hidden from "../images/hidden.png";
+import hidden from "../images/hidden.svg";
 import numeri from "../images/numeri.png";
 import { v4 as uuidv4 } from "uuid";
 const myApps = [
