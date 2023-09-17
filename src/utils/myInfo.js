@@ -77,7 +77,7 @@ const myApps = [
     key: uuidv4(),
     previewImageSrc: hidden2,
     title: "hidden.",
-    link: "https://thepmsquarehidden.netlify.app/",
+    link: "https://thepmsquare.github.io/hidden/",
   },
   {
     key: uuidv4(),
