@@ -1,4 +1,4 @@
-import guessColorGameReact from "../images/guess-color-game-react.png";
+import truecolor from "../images/truecolor.svg";
 import hangmanGameReact from "../images/hangman-game-react.png";
 import lightsOutGameReact from "../images/lights-out-game-react.png";
 import minesweeperGameReact from "../images/minesweeper-game-react.png";
@@ -21,7 +21,7 @@ const myApps = [
   },
   {
     key: uuidv4(),
-    previewImageSrc: guessColorGameReact,
+    previewImageSrc: truecolor,
     title: "truecolor.",
     link: "https://thepmsquare.github.io/truecolor/",
   },
