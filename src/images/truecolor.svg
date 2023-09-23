@@ -1,0 +1,26 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2160 2160" width="2160" height="2160">
+	<title>truecolor</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse"
+			gradientTransform="matrix(1000,0,0,1000,580,1080)">
+			<stop offset="0" stop-color="#ff0000" />
+			<stop offset=".15" stop-color="#ff00ff" />
+			<stop offset=".33" stop-color="#0000ff" />
+			<stop offset=".49" stop-color="#00ffff" />
+			<stop offset=".67" stop-color="#00ff00" />
+			<stop offset=".84" stop-color="#ffff00" />
+			<stop offset="1" stop-color="#ff0000" />
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 {
+			fill: #000000
+		}
+
+		.s1 {
+			fill: url(#g1)
+		}
+	</style>
+	<path id="Background" class="s0" d="m0 0h2160v2160h-2160z" />
+	<path id="Layer 1" class="s1" d="m580 580h1000v1000h-1000z" />
+</svg>
