@@ -22,8 +22,8 @@ const myApps = [
   {
     key: uuidv4(),
     previewImageSrc: guessColorGameReact,
-    title: "Guess Color Game.",
-    link: "https://thepmsquare.github.io/guess-color-game-react/",
+    title: "truecolor.",
+    link: "https://thepmsquare.github.io/truecolor/",
   },
   {
     key: uuidv4(),
