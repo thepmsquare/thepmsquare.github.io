@@ -9,7 +9,6 @@ import birdIdentification from "../images/birdIdentification.png";
 import fruitNinja from "../images/fruit-ninja.png";
 import _2048 from "../images/2048.png";
 import hidden from "../images/hidden.svg";
-import hidden2 from "../images/hidden2.svg";
 import numeri from "../images/numeri.png";
 import { v4 as uuidv4 } from "uuid";
 const myApps = [
@@ -81,9 +80,9 @@ const myApps = [
   },
   {
     key: uuidv4(),
-    previewImageSrc: hidden,
-    title: "hidden-api (steganography api).",
-    link: "https://default-1-u1199054.deta.app/docs",
+    previewImageSrc: hidden2,
+    title: "concealed.",
+    link: "https://pypi.org/project/concealed/",
   },
   {
     key: uuidv4(),
