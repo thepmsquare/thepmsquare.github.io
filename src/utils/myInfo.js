@@ -74,13 +74,13 @@ const myApps = [
   },
   {
     key: uuidv4(),
-    previewImageSrc: hidden2,
+    previewImageSrc: hidden,
     title: "hidden.",
     link: "https://thepmsquare.github.io/hidden/",
   },
   {
     key: uuidv4(),
-    previewImageSrc: hidden2,
+    previewImageSrc: hidden,
     title: "concealed.",
     link: "https://pypi.org/project/concealed/",
   },
