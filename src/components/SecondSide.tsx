@@ -11,14 +11,22 @@ import {
 } from "@mui/material";
 import { myApps } from "../utils/myInfo";
 import "../stylesheets/SecondSide.css";
+const isBrowser = typeof window !== "undefined";
 
 const SecondSide = (props: { toggleFlip: () => void }) => {
   const [currentPage, changeCurrentPage] = useState(1);
   const widthOfCard = 0.85;
-  const minPixelsAvailiable =
-    window.innerWidth > window.innerHeight
-      ? window.innerHeight
-      : window.innerWidth;
+
+  let minPixelsAvailiable: number;
+  if (isBrowser) {
+    minPixelsAvailiable =
+      window.innerWidth > window.innerHeight
+        ? window.innerHeight
+        : window.innerWidth;
+  } else {
+    minPixelsAvailiable = 0;
+  }
+
   const gridSize = Math.floor(minPixelsAvailiable / 180);
   const numPages = Math.ceil(myApps.length / (gridSize * gridSize));
   const allowedIndices: number[] = [];
