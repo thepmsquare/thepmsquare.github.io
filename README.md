@@ -1,8 +1,35 @@
+# thepmsquare.github.io
+
+## about
+
 just my personal website.
 
-# built on
+## configs
 
-- NodeJS v18.14.2
-- npm v9.5.0
+1. utils/myInfo.ts
 
-and more inside `package.json`
+## env
+
+1. node js - v18.17.0
+2. npm - v9.6.7
+
+## changelog
+
+### v4
+
+- migrate to gatsby
+- use typescript
+
+### v3
+
+- migrate to vite from cra
+
+### v2
+
+- migrate to mui.
+
+### v1
+
+- initial implementation using fluent ui.
+
+## Feedback is appreciated. Thank you!

@@ -11,7 +11,12 @@ import _2048 from "../images/2048.png";
 import hidden from "../images/hidden.svg";
 import numeri from "../images/numeri.png";
 import { v4 as uuidv4 } from "uuid";
-const myApps = [
+const myApps: {
+  key: string;
+  previewImageSrc: any;
+  title: string;
+  link: string;
+}[] = [
   {
     key: uuidv4(),
     previewImageSrc: hangmanGameReact,
