@@ -5,7 +5,7 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import { StrictMode } from "react";
+import { StrictMode, useState, useEffect } from "react";
 import Card from "../components/Card";
 
 export const Head: HeadFC = () => (
@@ -23,13 +23,25 @@ export const Head: HeadFC = () => (
 );
 
 const IndexPage: React.FC<PageProps> = () => {
-  return (
-    <StrictMode>
-      <div className="App">
-        <Card />
-      </div>
-    </StrictMode>
-  );
+  const [showChild, setShowChild] = useState(false);
+  useEffect(() => {
+    setShowChild(true);
+  }, []);
+
+  if (!showChild) {
+    return null;
+  }
+  if (typeof window === "undefined") {
+    return <></>;
+  } else {
+    return (
+      <StrictMode>
+        <div className="App">
+          <Card />
+        </div>
+      </StrictMode>
+    );
+  }
 };
 
 export default IndexPage;
