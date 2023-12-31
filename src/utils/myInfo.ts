@@ -10,6 +10,8 @@ import fruitNinja from "../images/fruit-ninja.png";
 import _2048 from "../images/2048.png";
 import hidden from "../images/hidden.svg";
 import numeri from "../images/numeri.png";
+import square from "../images/square.svg";
+
 import { v4 as uuidv4 } from "uuid";
 const myApps: {
   key: string;
@@ -94,6 +96,12 @@ const myApps: {
     previewImageSrc: numeri,
     title: "numeri.",
     link: "https://thepmsquare.github.io/numeri/",
+  },
+  {
+    key: uuidv4(),
+    previewImageSrc: square,
+    title: "squareComponents.",
+    link: "https://thepmsquare.github.io/squareComponents",
   },
 ];
 const myAppsSorted = myApps.sort((a, b) => a.title.localeCompare(b.title));
