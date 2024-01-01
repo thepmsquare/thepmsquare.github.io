@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Avatar,
   Card,
@@ -14,9 +14,7 @@ import "../stylesheets/SecondSide.css";
 const isBrowser = typeof window !== "undefined";
 
 const SecondSide = (props: { toggleFlip: () => void }) => {
-  const [currentPage, changeCurrentPage] = useState(1);
-  const widthOfCard = 0.85;
-
+  // state
   let minPixelsAvailiable: number;
   if (isBrowser) {
     minPixelsAvailiable =
@@ -26,9 +24,38 @@ const SecondSide = (props: { toggleFlip: () => void }) => {
   } else {
     minPixelsAvailiable = 0;
   }
-
-  const gridSize = Math.floor(minPixelsAvailiable / 180);
-  const numPages = Math.ceil(myApps.length / (gridSize * gridSize));
+  const defaultGridSize = Math.floor(minPixelsAvailiable / 180);
+  const [currentPage, changeCurrentPage] = useState(1);
+  const [gridSize, changeGridSize] = useState(defaultGridSize);
+  const [numPages, changeNumPages] = useState(
+    Math.ceil(myApps.length / (defaultGridSize * defaultGridSize))
+  );
+  // functions
+  const handleResize = () => {
+    if (isBrowser) {
+      minPixelsAvailiable =
+        window.innerWidth > window.innerHeight
+          ? window.innerHeight
+          : window.innerWidth;
+    } else {
+      minPixelsAvailiable = 0;
+    }
+    const newGridSize = Math.floor(minPixelsAvailiable / 180);
+    changeGridSize(newGridSize);
+    changeNumPages(Math.ceil(myApps.length / (newGridSize * newGridSize)));
+  };
+  // useEffect
+  if (isBrowser) {
+    useEffect(() => {
+      handleResize();
+      window.addEventListener("resize", handleResize);
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, []);
+  }
+  // misc
+  const widthOfCard = 0.85;
   const allowedIndices: number[] = [];
   for (
     let i = (currentPage - 1) * (gridSize * gridSize);
