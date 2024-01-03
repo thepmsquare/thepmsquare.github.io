@@ -23,9 +23,12 @@ export const Head: HeadFC = () => (
 );
 
 const IndexPage: React.FC<PageProps> = () => {
+  React.useEffect(() => {
+    document.querySelector(".hidden")?.classList.remove("hidden");
+  }, []);
   return (
     <StrictMode>
-      <div className="App">
+      <div className="App hidden">
         <Card />
       </div>
     </StrictMode>
