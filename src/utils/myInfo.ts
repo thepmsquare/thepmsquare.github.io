@@ -2,7 +2,7 @@ import truecolor from "../images/truecolor.svg";
 import hangmanGameReact from "../images/hangman-game-react.png";
 import lightsOutGameReact from "../images/lights-out-game-react.png";
 import minesweeperGameReact from "../images/minesweeper-game-react.png";
-import multiplicationTablesExerciseReact from "../images/multiplication-tables-exercise-react.png";
+import multiplicationTablesExerciseReact from "../images/multiply.svg";
 import tttGameReact from "../images/ttt-game-react.png";
 import yahtzeeGameReact from "../images/yahtzee-game-react.png";
 import birdIdentification from "../images/birdIdentification.png";
@@ -25,12 +25,12 @@ const myApps: {
     title: "Hangman Game.",
     link: "https://thepmsquare.github.io/hangman/",
   },
-  {
-    key: uuidv4(),
-    previewImageSrc: truecolor,
-    title: "truecolor.",
-    link: "https://thepmsquare.github.io/truecolor/",
-  },
+  // {
+  //   key: uuidv4(),
+  //   previewImageSrc: truecolor,
+  //   title: "truecolor.",
+  //   link: "https://thepmsquare.github.io/truecolor/",
+  // },
   {
     key: uuidv4(),
     previewImageSrc: lightsOutGameReact,
@@ -47,7 +47,7 @@ const myApps: {
     key: uuidv4(),
     previewImageSrc: multiplicationTablesExerciseReact,
     title: "Multiplication Tables Exercise.",
-    link: "https://thepmsquare.github.io/multiplication-tables-exercise-react/",
+    link: "https://thepmsquare.github.io/multiply/",
   },
   {
     key: uuidv4(),
