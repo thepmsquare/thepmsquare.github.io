@@ -20,7 +20,9 @@ const FirstSide = (props: { toggleFlip: () => void }) => {
   return (
     <Card className="FirstSide" square>
       <CardContent className="FirstSide-content">
-        <span className="FirstSide-title">thePmSquare</span>
+        <Typography variant="h3" component="h1" className="FirstSide-title">
+          thePmSquare
+        </Typography>
         <div className="FirstSide-iconsContainer">
           <Tooltip title={`mailto:${myCurrentEmail}`}>
             <IconButton href={`mailto:${myCurrentEmail}`} target="_blank">

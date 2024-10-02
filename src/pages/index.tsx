@@ -1,10 +1,11 @@
 import "../stylesheets/index.css";
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
+import "@fontsource-variable/outfit";
+import "@fontsource-variable/fraunces";
 
 import * as React from "react";
+
+import { ThemeProvider } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
 
 import Card from "../components/Card";
 
@@ -22,16 +23,41 @@ export const Head: HeadFC = () => (
     />
   </>
 );
-
+const theme = createTheme({
+  typography: {
+    // fontFamily: "Fraunces Variable",
+    fontFamily: "outfit",
+    h1: {
+      fontFamily: "outfit",
+    },
+    h2: {
+      fontFamily: "outfit",
+    },
+    h3: {
+      fontFamily: "outfit",
+    },
+    h4: {
+      fontFamily: "outfit",
+    },
+    h5: {
+      fontFamily: "outfit",
+    },
+    h6: {
+      fontFamily: "outfit",
+    },
+  },
+});
 const IndexPage: React.FC<PageProps> = () => {
   React.useEffect(() => {
     document.querySelector(".hidden")?.classList.remove("hidden");
   }, []);
   return (
     <React.StrictMode>
-      <div className="App hidden">
-        <Card />
-      </div>
+      <ThemeProvider theme={theme}>
+        <div className="App hidden">
+          <Card />
+        </div>
+      </ThemeProvider>
     </React.StrictMode>
   );
 };
