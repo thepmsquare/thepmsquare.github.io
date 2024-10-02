@@ -1,18 +1,19 @@
-import truecolor from "../images/truecolor.svg";
+import { v4 as uuidv4 } from "uuid";
+
+import _2048 from "../images/2048.png";
+import birdIdentification from "../images/birdIdentification.png";
+import fruitNinja from "../images/fruit-ninja.png";
 import hangmanGameReact from "../images/hangman-game-react.png";
+import hidden from "../images/hidden.svg";
 import lightsOutGameReact from "../images/lights-out-game-react.png";
 import minesweeperGameReact from "../images/minesweeper-game-react.png";
 import multiplicationTablesExerciseReact from "../images/multiply.svg";
-import tttGameReact from "../images/ttt-game-react.png";
-import yahtzeeGameReact from "../images/yahtzee-game-react.png";
-import birdIdentification from "../images/birdIdentification.png";
-import fruitNinja from "../images/fruit-ninja.png";
-import _2048 from "../images/2048.png";
-import hidden from "../images/hidden.svg";
 import numeri from "../images/numeri.png";
 import square from "../images/square.svg";
+import truecolor from "../images/truecolor.svg";
+import tttGameReact from "../images/ttt-game-react.png";
+import yahtzeeGameReact from "../images/yahtzee-game-react.png";
 
-import { v4 as uuidv4 } from "uuid";
 const myApps: {
   key: string;
   previewImageSrc: any;
