@@ -1,13 +1,14 @@
-import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
 import "../stylesheets/index.css";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import { StrictMode } from "react";
+
+import * as React from "react";
+
 import Card from "../components/Card";
 
+import type { HeadFC, PageProps } from "gatsby";
 export const Head: HeadFC = () => (
   <>
     <title>thePmSquare</title>
@@ -27,11 +28,11 @@ const IndexPage: React.FC<PageProps> = () => {
     document.querySelector(".hidden")?.classList.remove("hidden");
   }, []);
   return (
-    <StrictMode>
+    <React.StrictMode>
       <div className="App hidden">
         <Card />
       </div>
-    </StrictMode>
+    </React.StrictMode>
   );
 };
 

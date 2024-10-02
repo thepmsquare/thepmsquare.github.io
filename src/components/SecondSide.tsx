@@ -1,4 +1,7 @@
+import "../stylesheets/SecondSide.css";
+
 import React, { useEffect, useState } from "react";
+
 import {
   Avatar,
   Card,
@@ -9,8 +12,9 @@ import {
   Tooltip,
   Typography,
 } from "@mui/material";
+
 import { myApps } from "../utils/myInfo";
-import "../stylesheets/SecondSide.css";
+
 const isBrowser = typeof window !== "undefined";
 
 const SecondSide = (props: { toggleFlip: () => void }) => {

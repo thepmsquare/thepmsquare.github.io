@@ -1,17 +1,20 @@
+import "../stylesheets/FirstSide.css";
+
 import React from "react";
+
+import EmailIcon from "@mui/icons-material/Email";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import {
   Card,
-  Tooltip,
   CardActionArea,
   CardActions,
   CardContent,
   IconButton,
+  Tooltip,
   Typography,
 } from "@mui/material";
-import EmailIcon from "@mui/icons-material/Email";
-import GitHubIcon from "@mui/icons-material/GitHub";
+
 import { myCurrentEmail, myGithubUsername } from "../utils/myInfo";
-import "../stylesheets/FirstSide.css";
 
 const FirstSide = (props: { toggleFlip: () => void }) => {
   return (

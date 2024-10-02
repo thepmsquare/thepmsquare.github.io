@@ -1,8 +1,11 @@
+import "../stylesheets/Card.css";
+
 import React, { useState } from "react";
-import Flippy, { FrontSide, BackSide } from "@thepmsquare/react-flippy";
+
+import Flippy, { BackSide, FrontSide } from "@thepmsquare/react-flippy";
+
 import FirstSide from "./FirstSide";
 import SecondSide from "./SecondSide";
-import "../stylesheets/Card.css";
 
 const Card = () => {
   const [isFlipped, changeIsFlipped] = useState(true);
