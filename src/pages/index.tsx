@@ -1,6 +1,6 @@
-import "../stylesheets/index.css";
 import "@fontsource-variable/outfit";
 import "@fontsource-variable/fraunces";
+import "../stylesheets/index.css";
 
 import * as React from "react";
 
