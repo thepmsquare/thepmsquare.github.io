@@ -26,24 +26,24 @@ export const Head: HeadFC = () => (
 const theme = createTheme({
   typography: {
     // fontFamily: "Fraunces Variable",
-    fontFamily: "outfit",
+    fontFamily: "Outfit Variable",
     h1: {
-      fontFamily: "outfit",
+      fontFamily: "Outfit Variable",
     },
     h2: {
-      fontFamily: "outfit",
+      fontFamily: "Outfit Variable",
     },
     h3: {
-      fontFamily: "outfit",
+      fontFamily: "Outfit Variable",
     },
     h4: {
-      fontFamily: "outfit",
+      fontFamily: "Outfit Variable",
     },
     h5: {
-      fontFamily: "outfit",
+      fontFamily: "Outfit Variable",
     },
     h6: {
-      fontFamily: "outfit",
+      fontFamily: "Outfit Variable",
     },
   },
 });
