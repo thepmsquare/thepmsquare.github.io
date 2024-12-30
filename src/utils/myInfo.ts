@@ -101,8 +101,8 @@ const myApps: {
   {
     key: uuidv4(),
     previewImageSrc: square,
-    title: "squareComponents.",
-    link: "https://thepmsquare.github.io/squareComponents",
+    title: "square.",
+    link: "https://thepmsquare.github.io/square",
   },
 ];
 const myAppsSorted = myApps.sort((a, b) => a.title.localeCompare(b.title));
