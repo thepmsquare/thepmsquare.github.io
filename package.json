@@ -23,6 +23,7 @@
     "@mui/icons-material": "^5.14.18",
     "@mui/material": "^5.14.18",
     "@thepmsquare/react-flippy": "^1.2.1",
+    "framer-motion": "^12.23.12",
     "gatsby": "^5.14.1",
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-sitemap": "^6.12.3",

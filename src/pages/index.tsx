@@ -2,6 +2,7 @@ import "@fontsource-variable/outfit";
 import "@fontsource-variable/fraunces";
 import "../stylesheets/index.css";
 
+import { motion, useAnimation } from "framer-motion";
 import * as React from "react";
 
 import { ThemeProvider } from "@mui/material";
@@ -48,14 +49,67 @@ const theme = createTheme({
   },
 });
 const IndexPage: React.FC<PageProps> = () => {
+  const controls = useAnimation();
+  const viewportRef = React.useRef<HTMLDivElement>(null);
+
   React.useEffect(() => {
     document.querySelector(".hidden")?.classList.remove("hidden");
   }, []);
+  const targetY = window.innerHeight * 0.75;
+  React.useEffect(() => {
+    controls.start({
+      y: targetY,
+      transition: { type: "spring", stiffness: 120, damping: 12 },
+    });
+  }, [controls]);
+
   return (
     <React.StrictMode>
       <ThemeProvider theme={theme}>
         <div className="App hidden">
           <Card />
+        </div>
+        <div
+          ref={viewportRef}
+          style={{
+            height: "100vh",
+            display: "flex",
+            flexDirection: "column",
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            overflow: "hidden",
+            pointerEvents: "none",
+          }}
+        >
+          <motion.div
+            animate={controls}
+            drag={true}
+            dragConstraints={viewportRef}
+            dragMomentum={true}
+            dragElastic={0.2}
+            dragTransition={{ bounceStiffness: 50, bounceDamping: 15 }}
+            onDragEnd={() => {
+              controls.start({
+                y: targetY,
+                transition: { type: "spring", stiffness: 80, damping: 10 },
+              });
+            }}
+            style={{
+              width: "5vmin",
+              height: "5vmin",
+              borderRadius: "50%",
+              background: "transparent",
+              boxShadow: "rgb(255, 192, 203) 0 0 5vmin 2vmin",
+              position: "absolute",
+              top: 0,
+              left: "50%",
+              x: "-50%",
+              pointerEvents: "auto",
+            }}
+            initial={{ y: -100 }}
+          />
         </div>
       </ThemeProvider>
     </React.StrictMode>

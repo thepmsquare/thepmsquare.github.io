@@ -13,3 +13,8 @@ body {
 .hidden {
   opacity: 0;
 }
+
+.flippy-front,
+.flippy-back {
+  box-shadow: none !important;
+}
