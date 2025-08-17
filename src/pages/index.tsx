@@ -11,6 +11,9 @@ import { createTheme } from "@mui/material/styles";
 import Card from "../components/Card";
 
 import type { HeadFC, PageProps } from "gatsby";
+
+const isBrowser = typeof window !== "undefined";
+
 export const Head: HeadFC = () => (
   <>
     <title>thePmSquare</title>
@@ -55,10 +58,18 @@ const IndexPage: React.FC<PageProps> = () => {
   React.useEffect(() => {
     document.querySelector(".hidden")?.classList.remove("hidden");
   }, []);
-  const targetY = window.innerHeight * 0.75;
+  let targetY = 0;
+  let targetX = 0;
+
+  if (isBrowser) {
+    targetY = window.innerHeight * 0.75;
+    targetX = window.innerWidth * 0.25;
+  }
+
   React.useEffect(() => {
     controls.start({
       y: targetY,
+      x: -targetX,
       transition: { type: "spring", stiffness: 120, damping: 12 },
     });
   }, [controls]);
@@ -99,16 +110,17 @@ const IndexPage: React.FC<PageProps> = () => {
             style={{
               width: "5vmin",
               height: "5vmin",
-              borderRadius: "50%",
+              borderRadius: "1vmin",
               background: "transparent",
-              boxShadow: "rgb(255, 192, 203) 0 0 5vmin 2vmin",
+              backdropFilter: "blur(16px) saturate(180%)",
+              backgroundColor: "rgb(255,192,203, 0.75)",
+              border: "1px solid rgba(255, 255, 255, 0.125)",
               position: "absolute",
               top: 0,
               left: "50%",
               x: "-50%",
               pointerEvents: "auto",
             }}
-            initial={{ y: -100 }}
           />
         </div>
       </ThemeProvider>
