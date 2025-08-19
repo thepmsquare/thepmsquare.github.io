@@ -110,6 +110,8 @@ const IndexPage: React.FC<PageProps> = () => {
             style={{
               width: "5vmin",
               height: "5vmin",
+              minWidth: "65px",
+              minHeight: "65px",
               borderRadius: "1vmin",
               background: "transparent",
               backdropFilter: "blur(16px) saturate(180%)",
