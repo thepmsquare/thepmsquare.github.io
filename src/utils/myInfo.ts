@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 
-import _2048 from "../images/2048.png";
+import _2048 from "../images/2048.svg";
 import birdIdentification from "../images/birdIdentification.png";
 import fruitNinja from "../images/fruit-ninja.png";
 import hangmanGameReact from "../images/hangman-game-react.png";
@@ -77,7 +77,7 @@ const myApps: {
   {
     key: uuidv4(),
     previewImageSrc: _2048,
-    title: "2048 Game Clone.",
+    title: "2048",
     link: "https://thepmsquare.github.io/2048/",
   },
   {
