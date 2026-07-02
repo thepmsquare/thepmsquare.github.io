@@ -53,8 +53,8 @@ const myApps: {
   {
     key: uuidv4(),
     previewImageSrc: tttGameReact,
-    title: "Tic Tac Toe Game.",
-    link: "https://thepmsquare.github.io/ttt-game-react/",
+    title: "ttthree",
+    link: "https://thepmsquare.github.io/ttthree/",
   },
   {
     key: uuidv4(),
