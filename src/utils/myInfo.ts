@@ -11,7 +11,7 @@ import multiplicationTablesExerciseReact from "../images/multiply.svg";
 import numeri from "../images/numeri.png";
 import square from "../images/square.svg";
 import truecolor from "../images/truecolor.svg";
-import tttGameReact from "../images/ttt-game-react.png";
+import tttGameReact from "../images/ttthree.svg";
 import yahtzeeGameReact from "../images/yahtzee-game-react.png";
 
 const myApps: {
